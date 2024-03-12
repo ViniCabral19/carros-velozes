@@ -11,9 +11,9 @@
 
 header::before{
     content: "";
-    background-image: url("../images/capa\ 2.png");
-    height: 35vh;
-    width: 100vw;
+    background-image: url("../images/capa\ mobile.png");
+    height: 59vh;
+    width: 98vw;
     display: block;
     position: absolute;
     z-index: -10;
@@ -42,7 +42,7 @@ body {
 #secao-apresentacao{
     display: flex;
     align-items: center;
-    padding: 4rem;
+    padding: 4 rem;
 }
 
 #secao-apresentacao img{
@@ -54,11 +54,11 @@ body {
 }
 
 #texto-apresentacao h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: var(--font-title);
 }
 
 #texto-apresentacao p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--font-body);
 }
