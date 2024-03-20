@@ -120,17 +120,50 @@
                         
                 </div>
             </li>
-            <li>
-                <div class="card">
-                    <div class="image-wrapper"><img src="/assets/images/rimac-nevera-2021-06_02.jpg"></div>
-                       
-                    <div class="card-text">
-                        <h2>carros velozes</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
-                        
-                </div>
-            </li>
         </ul>
+    </section>
+
+    <section id="secao-orcamento">
+        <h2>Faça um orçamento</h2>
+        <form action="">
+            <div class="campo linha">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+
+            <div class="campo">
+                <label for="paginas">Qtd de Páginas</label>
+                <input type="number" id="paginas" min="1" value="1">
+            </div>
+
+            <div class="campo">
+                <label for="tipo">Tipo de Site</label>
+                <select id="tipo">
+                    <option value="1">estático</option>
+                    <option value="2">dinâmico</option>
+                </select>
+            </div>
+            
+            <div class="campo linha">
+                <label for="">Precisa de Protótipo?</label>
+                <div>
+                    <input type="radio" name="prototipo" id="prototipo_sim">
+                    <label for="prototipo_sim">sim, preciso.</label>
+                    <input type="radio" name="prototipo" id="prototipo_nao">
+                    <label for="prototipo_nao">não, ja tenho.</label>
+                </div>
+            </div>
+
+            <input type="checkbox" id="js">
+            <label for="js">tem automação com JS</label>
+
+            <label for="prazo">Prazo</label>
+            <input type="range" min="1" max="12" id="prazo">
+
+            <!-- <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            <button>Enviar Orçamento</button> -->
+        </form>
     </section>
 
 </body>
