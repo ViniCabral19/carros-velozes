@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carros Velozes</title> 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -208,28 +209,28 @@
         </ul>
     </section> -->
 
-    <section id="secao-orcamento">
-        <h2>Faça um orçamento</h2>
+    <section id="secao-calculo">
+        <h2>Faça o cálculo da distância</h2>
         <form action="">
             <div class="campo linha">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome">
+                <label for="Velocidade">Velôcidade</label>
+                <input type="text" id="Velocidade">
             </div>
 
             <div class="campo">
-                <label for="paginas">Qtd de Páginas</label>
-                <input type="number" id="paginas" min="1" value="1">
+                <label for="tempo">Tempo de 0-10</label>
+                <input type="number" id="tempo" min="1" value="1">
             </div>
 
             <div class="campo">
-                <label for="tipo">Tipo de Site</label>
+                <label for="tipo">Tipo do carro</label>
                 <select id="tipo">
-                    <option value="1">estático</option>
-                    <option value="2">dinâmico</option>
+                    <option value="1">aerodinâmica</option>
+                    <option value="2">sem aerodinâmica</option>
                 </select>
             </div>
             
-            <div class="campo linha">
+            <!-- <div class="campo linha">
                 <label for="">Precisa de Protótipo?</label>
                 <div>
                     <input type="radio" name="prototipo" id="prototipo_sim">
@@ -243,11 +244,14 @@
             <label for="js">tem automação com JS</label>
 
             <label for="prazo">Prazo</label>
-            <input type="range" min="1" max="12" id="prazo">
+            <input type="range" min="1" max="12" id="prazo"> -->
 
             <!-- <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-            <button>Enviar Orçamento</button> -->
+            <input type="reset" value="Limpar"> -->
+            <button>Enviar Valores</button>
+
+            <output id="valor"></output>
+
         </form>
     </section>
 

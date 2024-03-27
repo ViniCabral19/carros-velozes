@@ -16,7 +16,7 @@
 header::before{
     content: "";
     background-image: url("../images/capa\ mobile.png");
-    height: 58vh;
+    height: 57.5vh;
     width: 98vw;
     display: block;
     position: absolute;
@@ -120,16 +120,16 @@ body {
     opacity: .2;
 }
 
-#secao-orcamento{
+#secao-calculo{
     height: 100vh;
     padding: 3rem;
 }
 
-#secao-orcamento h2{
+#secao-calculo h2{
     font-family: var(--font-title);
 }
 
-#secao-orcamento form{
+#secao-calculo form{
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(2,1fr);
