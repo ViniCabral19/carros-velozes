@@ -6,6 +6,27 @@
     <title>Carros Velozes</title> 
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/script.js" defer></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #D7d2cc; /* Cor de fundo */
+            /* Ou você pode usar uma imagem de fundo */
+            /* background-image: url('caminho/para/imagem.jpg'); */
+            /* background-size: cover; */
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar Texto</title>
+    <style>
+        .centered-text {
+            text-align: center; /* Define o alinhamento do texto como centralizado */
+        }
+</style>
+
 </head>
 <body>
     <header>
@@ -210,26 +231,28 @@
     </section> -->
 
     <section id="secao-calculo">
-        <h2>Faça o cálculo da distância</h2>
+        <div class="centered-text">
+            <h2>Faça o cálculo da aceleração do carro</h2>
+        </div>
         <form action="">
-            <div class="campo linha">
-                <label for="Velocidade">Velôcidade</label>
-                <input type="text" id="Velocidade">
+            <div class="campo">
+                <label for="Velocidade">Velocidade Máxima</label>
+                <input type="number" id="Velocidade" min="0" max="100" value="0">
             </div>
 
             <div class="campo">
                 <label for="tempo">Tempo de 0-10</label>
-                <input type="number" id="tempo" min="1" value="1">
+                <input type="number" id="tempo" min="1" max= "5" value="1">
             </div>
 
-            <div class="campo">
+            <!-- <div class="campo">
                 <label for="tipo">Tipo do carro</label>
                 <select id="tipo">
                     <option value="1">aerodinâmica</option>
                     <option value="2">sem aerodinâmica</option>
                 </select>
             </div>
-            
+             -->
             <!-- <div class="campo linha">
                 <label for="">Precisa de Protótipo?</label>
                 <div>

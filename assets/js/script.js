@@ -14,11 +14,12 @@ document.querySelector("#tipo").addEventListener("change", calcular)
 function calcular(){
     
     //DOM - Document Object Model
-    const tempo_0_10 = document.querySelector("#tempo").value
-    let valor = tempo_0_10 / 415
+    const tempo_0_100 = document.querySelector("#tempo").value
+    let valor = tempo_0_100 
     
-    const tipo = document.querySelector("#tipo").value
-    if(tipo == 1) valor += 0.5
+    const velo = document.querySelector("#velocidade").value
+
+    // preciso fazer 0 - velocidade inserida / pelo tempo de 0-100 para calcular a aceleraçao como????????????
 
     // const prototipo = document.querySelector("#prototipo_sim").checked
     // if (prototipo) valor *= 1.1
